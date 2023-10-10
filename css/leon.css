@@ -1,3 +1,20 @@
+/* start varibales */
+
+
+.parent{
+    background-color: #eee;
+   
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 600px;
+    margin: auto;
+    background-color: #eee;
+}
+
+/* End Varabiles */
 /* global rules */
 * {
     -webkit-box-sizing: border-box;
@@ -10,3 +27,24 @@ body{
 }
 
 /* End global rules */
+
+
+/* media  */
+ /* small */
+ @media  (min-width: 768px){
+    .container{
+        width: 750px;
+    }
+}
+/* meduim */
+@media  (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+/* Large */
+@media  (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
